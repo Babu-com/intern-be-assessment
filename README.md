@@ -11,7 +11,7 @@ The backend for this web application must collect data exposed by the GitHub ReS
 - CSS
 - Any backend stack of your choice
 
-**GitHub** is the leading hosting platform for Git repositories. **Git** is the leading version control system in the world. You should familiarise yourself with these two technologies before attempting to complete this task. Please take the time to understand how they work before implementing your solution.
+**GitHub** is the leading hosting platform for Git repositories. **Git** is the leading version control system in the world. You should familiarise yourself with these two technologies before trying this task. Please take the time to understand how they work before implementing your solution.
 
 Using CSS frameworks such as Bootstrap or Tailwind is recommended.
 
@@ -22,9 +22,9 @@ Please clone this repository on your local machine to get started.
 For this task, we will limit ourselves to listing and searching through the list of repositories under your account.
 
 The UI you will build must provide a way to:
-- list the last 5 repositories. 
+- list the last five repositories. 
 - Search among all your repositories by _name_ or by _description_. This includes repositories that are private, public, forked, etc. 
-- display detailed information of a selected repository as well as the repositories last 10 commits and their hash, message, date, and owner.
+- display detailed information about a selected repository and the repositories' last ten commits and their hash, message, date, and owner.
 
 > _Important_: **The UI must be responsive**
 
@@ -34,8 +34,8 @@ A simple interface would be like this:
 ### Submitting your solution
 To submit your solution, please make sure you follow the instructions below:
 - Create a **private** repository on GitHub and upload your code to it. *Any solution submitted through a public repository will not be reviewed*.
-- Send an invitation to collaborate to alfred.nehemie@gmail.com. This will inform us that you are done and that your work is ready for review. Failure to do so will result in a delayed review should you choose to let us know using a different channel.
-- Ensure you have provided all information needed to run your project locally such as a sample environment file.
+- Send an invitation to collaborate to alfred.nehemie@gmail.com, yannickmakwenge@gmail.com, and shongwe1408@gmail.com. This will let us know that you are done and that your work is ready for review. Failure to do so will result in a delayed review should you choose to let us know using a different channel.
+- Please ensure you have provided all information needed to run your project locally, such as a sample environment file.
 
 ### The DONTs
 - Please do not cache data on the client in your solution. It is okay to hit the GitHub endpoint to list and search repositories.
@@ -44,6 +44,7 @@ To submit your solution, please make sure you follow the instructions below:
 
 
 ### Bonus point
-Implement caching on the Back-end where necessary.
+- Implement caching on the Back-end where necessary.
+- Unit Testing
 
 Good luck!
